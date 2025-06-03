@@ -1,43 +1,50 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task-1b</title>
-    <style>
-        body {
-            display: grid;
-            place-content: center;
-            font-size: large;
-        }
-       
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 3rem;
-        }
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task-1b</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
 
+    body {
+      display: grid;
+      place-content: center;
+      font-size: large;
+      padding: 2 rem;
+    }
 
-        .rect {
-            width: 12rem;
-            height: 8rem;
-            border: 5px solid #98c838;
-        }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat (3, 1 fr);
+      gap: 3 rem;
+    }
 
+    .rect {
+      width: 12 rem;
+      height: 8 rem;
+      border: 5 px solid #98c838;
+    }
 
-    </style>
+    .rect:hover {
+      background-color: #f0f0f0;
+    }
+  </style>
 </head>
 <body>
-    <div class="grid">
-        <div class="rect" style="border-radius: 5px;"></div>
-        <div class="rect" style="border-radius: 7px;"></div>
-        <div class="rect" style="border-radius: 17px;"></div>
-        <div class="rect" style="border-radius: 10px;"></div>
-        <div class="rect" style="border-radius: 3px;"></div>
-        <div class="rect" style="border-radius: 17px;"></div>
-        <div class="rect" style="border-radius: 60%;"></div>
-        <div class="rect" style="border-radius: 3px;"></div>
-        <div class="rect" style="border-radius: 3px 30px 3px 30px;"></div>
-    </div>
+  <div class="grid">
+    <div class="rect" style="border-radius: 5 px;"></div>
+    <div class="rect" style="border-radius: 7 px;"></div>
+    <div class="rect" style="border-radius: 17 px;"></div>
+    <div class="rect" style="border-radius: 10 px;"></div>
+    <div class="rect" style="border-radius: 3 px;"></div>
+    <div class="rect" style="border-radius: 17 px;"></div>
+    <div class="rect" style="border-radius: 60 %;"></div>
+    <div class="rect" style="border-radius: 3 px;"></div>
+    <div class="rect" style="border-radius: 3 px 30 px 3 px 30 px;"></div>
+  </div>
 </body>
 </html>
